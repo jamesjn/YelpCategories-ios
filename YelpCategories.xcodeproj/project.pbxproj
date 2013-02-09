@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E2065E2D00B424482A8DF69 /* libPods-KiwiUnitTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16CBB4FE045842B5830920F6 /* libPods-KiwiUnitTest.a */; };
 		6EE9688E16C6E41900C697BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9688D16C6E41900C697BC /* UIKit.framework */; };
 		6EE9689016C6E41900C697BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9688F16C6E41900C697BC /* Foundation.framework */; };
 		6EE9689216C6E41900C697BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9689116C6E41900C697BC /* CoreGraphics.framework */; };
@@ -18,25 +19,19 @@
 		6EE968A416C6E41900C697BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE968A316C6E41900C697BC /* Default@2x.png */; };
 		6EE968A616C6E41900C697BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EE968A516C6E41900C697BC /* Default-568h@2x.png */; };
 		6EE968A916C6E41900C697BC /* YelpCategories.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EE968A716C6E41900C697BC /* YelpCategories.xcdatamodeld */; };
-		6EE968B116C6E41900C697BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE968B016C6E41900C697BC /* SenTestingKit.framework */; };
-		6EE968B216C6E41900C697BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9688D16C6E41900C697BC /* UIKit.framework */; };
-		6EE968B316C6E41900C697BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9688F16C6E41900C697BC /* Foundation.framework */; };
-		6EE968B416C6E41900C697BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9689316C6E41900C697BC /* CoreData.framework */; };
-		6EE968BC16C6E41900C697BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE968BA16C6E41900C697BC /* InfoPlist.strings */; };
-		6EE968BF16C6E41900C697BC /* YelpCategoriesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE968BE16C6E41900C697BC /* YelpCategoriesTests.m */; };
+		6EE968CE16C6E58D00C697BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE968B016C6E41900C697BC /* SenTestingKit.framework */; };
+		6EE968CF16C6E58D00C697BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9688D16C6E41900C697BC /* UIKit.framework */; };
+		6EE968D016C6E58D00C697BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE9688F16C6E41900C697BC /* Foundation.framework */; };
+		6EE968D616C6E58D00C697BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE968D416C6E58D00C697BC /* InfoPlist.strings */; };
+		6EE968D916C6E58D00C697BC /* KiwiUnitTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE968D816C6E58D00C697BC /* KiwiUnitTest.m */; };
+		6EE968F516C6EB2B00C697BC /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE968F416C6EB2B00C697BC /* Category.m */; };
+		6EE968F616C6EB2B00C697BC /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE968F416C6EB2B00C697BC /* Category.m */; };
+		6EE968FD16C6EBA700C697BC /* CategorySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE968FB16C6EBA700C697BC /* CategorySpec.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		6EE968B516C6E41900C697BC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6EE9688016C6E41900C697BC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6EE9688816C6E41900C697BC;
-			remoteInfo = YelpCategories;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		16CBB4FE045842B5830920F6 /* libPods-KiwiUnitTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KiwiUnitTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BB4AF54FB54B979E10351D /* Pods-KiwiUnitTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiwiUnitTest.xcconfig"; path = "Pods/Pods-KiwiUnitTest.xcconfig"; sourceTree = SOURCE_ROOT; };
 		6EE9688916C6E41900C697BC /* YelpCategories.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpCategories.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE9688D16C6E41900C697BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6EE9688F16C6E41900C697BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -52,12 +47,15 @@
 		6EE968A316C6E41900C697BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6EE968A516C6E41900C697BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6EE968A816C6E41900C697BC /* YelpCategories.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YelpCategories.xcdatamodel; sourceTree = "<group>"; };
-		6EE968AF16C6E41900C697BC /* YelpCategoriesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YelpCategoriesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EE968B016C6E41900C697BC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		6EE968B916C6E41900C697BC /* YelpCategoriesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YelpCategoriesTests-Info.plist"; sourceTree = "<group>"; };
-		6EE968BB16C6E41900C697BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6EE968BD16C6E41900C697BC /* YelpCategoriesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YelpCategoriesTests.h; sourceTree = "<group>"; };
-		6EE968BE16C6E41900C697BC /* YelpCategoriesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YelpCategoriesTests.m; sourceTree = "<group>"; };
+		6EE968CD16C6E58D00C697BC /* KiwiUnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiwiUnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE968D316C6E58D00C697BC /* KiwiUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KiwiUnitTest-Info.plist"; sourceTree = "<group>"; };
+		6EE968D516C6E58D00C697BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE968D816C6E58D00C697BC /* KiwiUnitTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KiwiUnitTest.m; sourceTree = "<group>"; };
+		6EE968DA16C6E58D00C697BC /* KiwiUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KiwiUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		6EE968F316C6EB2B00C697BC /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		6EE968F416C6EB2B00C697BC /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		6EE968FB16C6EBA700C697BC /* CategorySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategorySpec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,14 +70,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE968AB16C6E41900C697BC /* Frameworks */ = {
+		6EE968C916C6E58D00C697BC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE968B116C6E41900C697BC /* SenTestingKit.framework in Frameworks */,
-				6EE968B216C6E41900C697BC /* UIKit.framework in Frameworks */,
-				6EE968B316C6E41900C697BC /* Foundation.framework in Frameworks */,
-				6EE968B416C6E41900C697BC /* CoreData.framework in Frameworks */,
+				6EE968CE16C6E58D00C697BC /* SenTestingKit.framework in Frameworks */,
+				6EE968CF16C6E58D00C697BC /* UIKit.framework in Frameworks */,
+				6EE968D016C6E58D00C697BC /* Foundation.framework in Frameworks */,
+				4E2065E2D00B424482A8DF69 /* libPods-KiwiUnitTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,9 +88,10 @@
 			isa = PBXGroup;
 			children = (
 				6EE9689516C6E41900C697BC /* YelpCategories */,
-				6EE968B716C6E41900C697BC /* YelpCategoriesTests */,
+				6EE968D116C6E58D00C697BC /* KiwiUnitTest */,
 				6EE9688C16C6E41900C697BC /* Frameworks */,
 				6EE9688A16C6E41900C697BC /* Products */,
+				26BB4AF54FB54B979E10351D /* Pods-KiwiUnitTest.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,7 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				6EE9688916C6E41900C697BC /* YelpCategories.app */,
-				6EE968AF16C6E41900C697BC /* YelpCategoriesTests.octest */,
+				6EE968CD16C6E58D00C697BC /* KiwiUnitTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,6 +112,7 @@
 				6EE9689116C6E41900C697BC /* CoreGraphics.framework */,
 				6EE9689316C6E41900C697BC /* CoreData.framework */,
 				6EE968B016C6E41900C697BC /* SenTestingKit.framework */,
+				16CBB4FE045842B5830920F6 /* libPods-KiwiUnitTest.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -120,6 +120,8 @@
 		6EE9689516C6E41900C697BC /* YelpCategories */ = {
 			isa = PBXGroup;
 			children = (
+				6EE968EB16C6E95300C697BC /* ViewControllers */,
+				6EE968EA16C6E94600C697BC /* Models */,
 				6EE9689E16C6E41900C697BC /* YCAppDelegate.h */,
 				6EE9689F16C6E41900C697BC /* YCAppDelegate.m */,
 				6EE968A716C6E41900C697BC /* YelpCategories.xcdatamodeld */,
@@ -142,23 +144,48 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		6EE968B716C6E41900C697BC /* YelpCategoriesTests */ = {
+		6EE968D116C6E58D00C697BC /* KiwiUnitTest */ = {
 			isa = PBXGroup;
 			children = (
-				6EE968BD16C6E41900C697BC /* YelpCategoriesTests.h */,
-				6EE968BE16C6E41900C697BC /* YelpCategoriesTests.m */,
-				6EE968B816C6E41900C697BC /* Supporting Files */,
+				6EE968F716C6EB8000C697BC /* Models */,
+				6EE968D816C6E58D00C697BC /* KiwiUnitTest.m */,
+				6EE968D216C6E58D00C697BC /* Supporting Files */,
 			);
-			path = YelpCategoriesTests;
+			path = KiwiUnitTest;
 			sourceTree = "<group>";
 		};
-		6EE968B816C6E41900C697BC /* Supporting Files */ = {
+		6EE968D216C6E58D00C697BC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6EE968B916C6E41900C697BC /* YelpCategoriesTests-Info.plist */,
-				6EE968BA16C6E41900C697BC /* InfoPlist.strings */,
+				6EE968D316C6E58D00C697BC /* KiwiUnitTest-Info.plist */,
+				6EE968D416C6E58D00C697BC /* InfoPlist.strings */,
+				6EE968DA16C6E58D00C697BC /* KiwiUnitTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EE968EA16C6E94600C697BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EE968F316C6EB2B00C697BC /* Category.h */,
+				6EE968F416C6EB2B00C697BC /* Category.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6EE968EB16C6E95300C697BC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6EE968F716C6EB8000C697BC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6EE968FB16C6EBA700C697BC /* CategorySpec.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,23 +208,23 @@
 			productReference = 6EE9688916C6E41900C697BC /* YelpCategories.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6EE968AE16C6E41900C697BC /* YelpCategoriesTests */ = {
+		6EE968CC16C6E58D00C697BC /* KiwiUnitTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6EE968C516C6E41900C697BC /* Build configuration list for PBXNativeTarget "YelpCategoriesTests" */;
+			buildConfigurationList = 6EE968DB16C6E58D00C697BC /* Build configuration list for PBXNativeTarget "KiwiUnitTest" */;
 			buildPhases = (
-				6EE968AA16C6E41900C697BC /* Sources */,
-				6EE968AB16C6E41900C697BC /* Frameworks */,
-				6EE968AC16C6E41900C697BC /* Resources */,
-				6EE968AD16C6E41900C697BC /* ShellScript */,
+				6EE968C816C6E58D00C697BC /* Sources */,
+				6EE968C916C6E58D00C697BC /* Frameworks */,
+				6EE968CA16C6E58D00C697BC /* Resources */,
+				6EE968CB16C6E58D00C697BC /* ShellScript */,
+				CF027FD7EE1D418FB24B116D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6EE968B616C6E41900C697BC /* PBXTargetDependency */,
 			);
-			name = YelpCategoriesTests;
-			productName = YelpCategoriesTests;
-			productReference = 6EE968AF16C6E41900C697BC /* YelpCategoriesTests.octest */;
+			name = KiwiUnitTest;
+			productName = KiwiUnitTest;
+			productReference = 6EE968CD16C6E58D00C697BC /* KiwiUnitTest.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +250,7 @@
 			projectRoot = "";
 			targets = (
 				6EE9688816C6E41900C697BC /* YelpCategories */,
-				6EE968AE16C6E41900C697BC /* YelpCategoriesTests */,
+				6EE968CC16C6E58D00C697BC /* KiwiUnitTest */,
 			);
 		};
 /* End PBXProject section */
@@ -240,18 +267,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE968AC16C6E41900C697BC /* Resources */ = {
+		6EE968CA16C6E58D00C697BC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE968BC16C6E41900C697BC /* InfoPlist.strings in Resources */,
+				6EE968D616C6E58D00C697BC /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		6EE968AD16C6E41900C697BC /* ShellScript */ = {
+		6EE968CB16C6E58D00C697BC /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -264,6 +291,20 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		CF027FD7EE1D418FB24B116D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-KiwiUnitTest-resources.sh\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -274,26 +315,21 @@
 				6EE9689C16C6E41900C697BC /* main.m in Sources */,
 				6EE968A016C6E41900C697BC /* YCAppDelegate.m in Sources */,
 				6EE968A916C6E41900C697BC /* YelpCategories.xcdatamodeld in Sources */,
+				6EE968F516C6EB2B00C697BC /* Category.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6EE968AA16C6E41900C697BC /* Sources */ = {
+		6EE968C816C6E58D00C697BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6EE968BF16C6E41900C697BC /* YelpCategoriesTests.m in Sources */,
+				6EE968D916C6E58D00C697BC /* KiwiUnitTest.m in Sources */,
+				6EE968F616C6EB2B00C697BC /* Category.m in Sources */,
+				6EE968FD16C6EBA700C697BC /* CategorySpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		6EE968B616C6E41900C697BC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6EE9688816C6E41900C697BC /* YelpCategories */;
-			targetProxy = 6EE968B516C6E41900C697BC /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		6EE9689816C6E41900C697BC /* InfoPlist.strings */ = {
@@ -304,10 +340,10 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		6EE968BA16C6E41900C697BC /* InfoPlist.strings */ = {
+		6EE968D416C6E58D00C697BC /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6EE968BB16C6E41900C697BC /* en */,
+				6EE968D516C6E58D00C697BC /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -387,36 +423,34 @@
 			};
 			name = Release;
 		};
-		6EE968C616C6E41900C697BC /* Debug */ = {
+		6EE968DC16C6E58D00C697BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BB4AF54FB54B979E10351D /* Pods-KiwiUnitTest.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YelpCategories.app/YelpCategories";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YelpCategories/YelpCategories-Prefix.pch";
-				INFOPLIST_FILE = "YelpCategoriesTests/YelpCategoriesTests-Info.plist";
+				GCC_PREFIX_HEADER = "KiwiUnitTest/KiwiUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "KiwiUnitTest/KiwiUnitTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
-		6EE968C716C6E41900C697BC /* Release */ = {
+		6EE968DD16C6E58D00C697BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26BB4AF54FB54B979E10351D /* Pods-KiwiUnitTest.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YelpCategories.app/YelpCategories";
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "YelpCategories/YelpCategories-Prefix.pch";
-				INFOPLIST_FILE = "YelpCategoriesTests/YelpCategoriesTests-Info.plist";
+				GCC_PREFIX_HEADER = "KiwiUnitTest/KiwiUnitTest-Prefix.pch";
+				INFOPLIST_FILE = "KiwiUnitTest/KiwiUnitTest-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
@@ -440,14 +474,16 @@
 				6EE968C416C6E41900C697BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		6EE968C516C6E41900C697BC /* Build configuration list for PBXNativeTarget "YelpCategoriesTests" */ = {
+		6EE968DB16C6E58D00C697BC /* Build configuration list for PBXNativeTarget "KiwiUnitTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EE968C616C6E41900C697BC /* Debug */,
-				6EE968C716C6E41900C697BC /* Release */,
+				6EE968DC16C6E58D00C697BC /* Debug */,
+				6EE968DD16C6E58D00C697BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
